@@ -23,4 +23,4 @@ List<CSG> tesselate(CSG incoming,int xSteps, int ySteps, double xGrid, double yG
 	}
 
 //return tesselate(new Hexagon(9,10).toCSG(),5,5,8.75,10,5)
-return tesselateHex(new Hexagon(9,10).toCSG(),5,5,1)
+return tesselateHex(new Hexagon(9,10).toCSG(),5,5,3)
